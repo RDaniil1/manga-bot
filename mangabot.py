@@ -1,7 +1,7 @@
 from telebot import *
 from manga import get_manga_from_vol_num
 
-bot = telebot.TeleBot('5552065772:AAEUI_oi4RmQa5SPIDKLVH3MdB1YnwShO3I')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=["start", "help"])
 def start(m, res=False):
